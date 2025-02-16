@@ -1,0 +1,14 @@
+
+<div class="d-flex justify-content-center align-items-center absolute-center">
+    <button class="btn btn-primary" (click)="openpopup()">Pop-up</button>
+</div>
+</div>
+<div class="overlay  position-fixed top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center"  *ngIf="show">
+<div class="content bg-white p-4 rounded shadow">
+    <label class="form-label">UserName</label>
+    <input type="text" class="form-control mb-3">
+    <label class="form-label">PassWord</label>
+    <input type="password" class="form-control">
+    <button class="btn btn-primary mt-3">Sign-Up</button>
+</div>
+</div>
