@@ -13,3 +13,5 @@ Other events can also be used, like (mouseover), (keyup), (change), etc.
 1️⃣ Why this?
 In TypeScript (and JavaScript classes), this refers to the current instance of the class.
 When you define show as a property inside your Angular component, you access it using this.show.
+
+From: https://www.youtube.com/watch?v=G8Qy9c9deJQ 
