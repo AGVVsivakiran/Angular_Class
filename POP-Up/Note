@@ -1,0 +1,15 @@
+1) In Angular, (click)="openpopup()" is an event binding. Let me break it down for you:
+
+1️⃣ Why ()?
+The parentheses () bind events in Angular.
+This means that when the event occurs (like a click), Angular will execute the assigned method.
+2️⃣ Why (click)?
+(click) specifically listens to the click event on an element.
+Other events can also be used, like (mouseover), (keyup), (change), etc.
+
+
+2) In your Angular component, this.show = true; is used to update a class property. Let's break it down:
+
+1️⃣ Why this?
+In TypeScript (and JavaScript classes), this refers to the current instance of the class.
+When you define show as a property inside your Angular component, you access it using this.show.
