@@ -1,4 +1,8 @@
-<div class="overlay  position-absolute top-0 start-0 w-100 vh-100 d-flex justify-content-center align-items-center"  *ngIf="show">
+<div class="d-flex justify-content-center align-items-center absolute-center">
+        <button class="btn btn-primary" (click)="openpopup()">Pop-up</button>
+    </div>
+<div class="overlay  position-absolute top-0 start-0 w-100 vh-100 d-flex justify-content-center align-items-center"
+ *ngIf="show" (click)="closeoverlay($event)">
     <div class="content bg-white p-4 rounded shadow position-relative">
             <button type="button" class="btn-close position-absolute top-0 end-0 p-2 m-2 rounded-circle border border-dark " aria-label="Close" (click)="closepopup()"></button>
         <label class="form-label">UserName</label>
