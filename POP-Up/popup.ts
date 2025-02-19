@@ -1,3 +1,4 @@
+export class YourComponent {
 //hidden popup
 show=false;
 //On click show popup
@@ -16,4 +17,5 @@ closeOnEscape() {
   this.show = false;
   //here add import { HostListener } from '@angular/core';
 
+}
 }
