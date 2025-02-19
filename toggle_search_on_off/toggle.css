@@ -1,0 +1,27 @@
+ /* id, name, email box start gg-s */
+.info-list {
+  width: 307px;
+  height: 252px;
+  border-radius: 8px;
+  border: 1px solid #94A3B8;
+  padding: 1rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  z-index: 100000;
+  background: #fff;
+  white-space: nowrap;
+}
+.info-list h2 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #0F172A;
+}
+.info-list p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #475569;
+}
+ /* id, name, email box end gg-s  */
